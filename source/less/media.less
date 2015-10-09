@@ -1,0 +1,289 @@
+@media screen and (min-width:768px) and (max-width:1023px) {
+	div.container {
+		width: 92%;
+		min-width: 708px;
+		padding: 0 2.92%;
+	}
+	footer {
+		width: 92%;
+		min-width: 708px;
+	}
+	header {
+		height: 92px;
+		width: 100%;
+		h1{
+			font-size: 36px;
+			top: 38px;
+		}
+	}
+	section {
+		width: 65%;
+	}
+	aside {
+		margin: 0 0 2.92% 1.95%;
+		width: 28%;
+		.dl-horizontal dt {
+			font-size: @f-size;
+			font-weight: 700;
+			line-height: 1;
+			width: 100%;
+			height: 15px;
+			margin: 0 0 10px 0px;
+			float: none;
+
+			h4{
+				line-height: 1;
+			}
+		}
+		dl dd {
+			float: none;
+			margin-bottom: 15px;
+			width: 100%;
+		}
+	}
+	dd.color {
+		width: 100%;
+	}
+	ul.price {
+		li.old-price {
+			display: none;
+		}
+		li.new-price {
+			font-size: 36px;
+			width: 100%;
+			color: #272727;
+		}
+	}
+	aside button {
+		width: 100%;
+	}
+	div.social-block h4 {
+		display: none;
+	}
+	p {
+		margin: 0 0 3.9%;
+	}
+	.description ul.properties {
+		display: none;
+	}
+	div.ac-container {
+		display: block;
+	}
+	.ac-container{
+		margin: 0px auto 0px auto;
+		text-align: left;
+
+		label{
+			font-family: 'Open Sans' sans-serif;
+			font-size: 12px;
+			font-weight: 700;
+			position: relative;
+			padding: 15px 0 5px;
+			width: 100px;
+			text-align: left;
+			text-transform: uppercase;
+			border: 0;
+			border-top: 2px solid #191919;
+			outline: none;
+			cursor: pointer;
+			background-color: transparent;
+			display: block;
+		}
+		input:checked + label,
+		input:checked + label:hover{
+			background: #fff;
+			color: @text-color;
+		}
+		label:after,
+		input:checked + label:after{
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			left: 85px;
+			top: 15px;
+			content: 'ᐯ';
+		}
+		input:checked + label:after{
+			content: 'ᐱ';
+		}
+		input{
+			display: none;
+		}
+		article{
+			background: #fff;
+			margin-top: 0px;
+			overflow: hidden;
+			height: 0px;
+			position: relative;
+			z-index: 10;
+
+			ul {
+				list-style: inside;
+
+				li{
+					color: @text-color;
+					font-size: @f-size;
+					margin: 0 0 2px;
+					padding: 0;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+	.ac-container input:checked ~ article.ac-small{
+		height: 150px;
+	}
+	footer div.effect {
+		float: left;
+		width: 29.5%;
+	}
+	div.slide{
+		display: none;
+	}
+	.effect {
+		position: relative;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	} 
+	.eff-3-2 {
+		width: 302px;
+		height: auto;
+		overflow: hidden;
+
+		.caption {
+			position: absolute;
+			top: 0;
+			left: 0px;
+			background: rgba(0,0,0,0.45);
+			width: 100%;
+			height: 98%;
+			color: #fff;
+			opacity: 0;
+			-o-transition: all 0.2s linear 0s;
+			-moz-transition: all 0.2s linear 0s;
+			-webkit-transition: all 0.2s linear 0s;
+			-ms-transition: all 0.2s linear 0s;
+			transition: all 0.2s linear 0s;
+
+			h4 {
+				font-size: 21px;
+				line-height: 28px;
+				width: 65%;
+				text-transform: uppercase;
+				text-align: center;
+				padding: 30px 0px 5px;
+				margin: 0 auto 20px;
+			}
+			a.btn {
+				width: 60%;
+				text-align: center;
+				display: block;
+				position: relative;
+				background: #e4e4e3;
+				color: #272727;
+				padding: 11px 0px;
+				margin: 0px auto;
+			}
+		}
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+	div.container, {
+		width: 87%;
+		min-width: 280px;
+		padding: 0 1.95%;
+	}
+	header, footer {
+		width: 100%;
+		min-width: 280px;
+	}
+	header {
+		height: 63px;
+		width: 100%;
+		h1{
+			font-size: 24px;
+			top: 22px;
+		}
+	}
+	section {
+		width: 100%;
+	}
+	.container section {
+		.img-product{
+			width: 100%;
+		}
+	}
+	aside {
+		width: 100%;
+		float: left;
+		margin: 0 0 7%;
+		button{
+			width: 100%;
+		}
+		dt{
+			width: 27%;
+		}
+		dd{
+			width: 72%;
+		}
+	}
+	ul.price {
+		li.old-price {
+			display: none;
+		}
+		li.new-price {
+			font-size: 36px;
+			width: 100%;
+			color: #272727;
+		}
+	}
+
+	section.description{
+		padding-bottom: 5%;
+		margin-bottom: 4%;
+		border-bottom: 1px solid #e6e6e6;
+	}
+	div.social-block{
+		text-align: center;
+		h4 {
+			display: none;
+		}
+	}
+	footer div.effect {
+			float: left;
+			width: 100%;
+		}
+		.eff-3-2 {
+			height: auto;
+			.caption{ 
+				h4 {
+					font-size: 21px;
+					line-height: 32px;
+					width: 86%;
+					text-align: center;
+					padding: 45px 0 25px;
+					margin: 0 auto 10px;
+				}
+				a.btn {
+					width: 60%;
+				}
+			}
+		}
+		.sec-1, .sec-2, .sec-3{
+			margin: 0;
+		}
+	
+	div.foot {
+		display: none;
+	}
+	div.slide {
+		display: block;
+		width: 87%;
+		height: auto;
+		margin: 0 auto;
+	}
+}
